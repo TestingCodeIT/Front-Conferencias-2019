@@ -7,7 +7,7 @@
       </div>
       <form #loginform="ngForm" (ngSubmit)="login()">
         <div>
-          <label>Correo</label>
+          <label>Correo:</label>
           <input type="text" id="inputEmail" class="text-input"  placeholder="Dirección de correo" required autofocus
           name="email" #email='ngModel' [(ngModel)]="user.email">
         </div>
